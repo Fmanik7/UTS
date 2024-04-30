@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffeb3b; /* Warna Kuning Cerah */
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ff9800; /* Warna Jingga */
+}
+
+form {
+    display: flex;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #fdd835; /* Warna Kuning */
+    border-radius: 5px 0 0 5px;
+}
+
+button, [type="submit"] {
+    padding: 10px 20px;
+    background-color: #ff5722; /* Warna Jingga Tua */
+    color: #fff;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+[type="submit"] {
+    background-color: #4caf50; /* Warna Hijau */
+}
+
+ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+ul li {
+    margin: 10px 0;
+    background-color: #fff176; /* Warna Kuning Muda */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+ul li s {
+    color: #f57f17; /* Warna Jingga Kemerahan */
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
